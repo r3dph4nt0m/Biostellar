@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.log
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.cache/
+.parcel-cache/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# AI/ML models (if large)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.weights
+*.ckpt
+*.pth
+*.pt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Windows batch files
+*.bat
+
+# Docker
+.dockerignore
+docker-compose.override.yml
