@@ -12,7 +12,7 @@ services:
     environment:
       - CEREBRAS_API_KEY=${CEREBRAS_API_KEY}
     volumes:
-      - ./ai:/app
+      - ./backend:/app
     restart: always
 
   frontend:
@@ -22,7 +22,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./ai/frontend:/app
+      - ./backend/ai/frontend:/app
       - /app/node_modules
     depends_on:
       - backend

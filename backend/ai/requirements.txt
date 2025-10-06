@@ -11,3 +11,5 @@ pydantic==2.5.0
 pydantic-settings==2.2.1  # Recommended for better configuration handling
 psycopg2-binary==2.9.9    # Recommended over regular psycopg2 for Docker builds
 httpx==0.27.0             # Recommended for stable async HTTP requests
+seaborn==0.13.2
+matplotlib==3.10.6

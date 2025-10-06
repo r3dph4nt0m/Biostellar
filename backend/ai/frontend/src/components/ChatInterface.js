@@ -19,7 +19,7 @@ const ChatInterface = ({ userId, onConnectionChange }) => {
   useEffect(() => {
     // Connect to WebSocket
     const connectWebSocket = () => {
-      const ws = new WebSocket(`ws://localhost:8000/ws/${userId}`);
+      const ws = new WebSocket(`ws://localhost:8000/chat/ws/${userId}`);
       
       ws.onopen = () => {
         console.log('WebSocket connected');
